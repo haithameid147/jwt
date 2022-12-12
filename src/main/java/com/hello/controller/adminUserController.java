@@ -19,11 +19,17 @@ public class adminUserController {
 	@Autowired
 	AdminUserService adminUserService;
 	@GetMapping("/aa")
-	    public List<AdminUser> getAll(){
-		
+	    public String getAll(){
+		return "hello";
+	
+		//return adminUserService.allData();
+
+	}
+	
+	
+	@GetMapping("/allServices")
+	public List<AdminUser> getAllEmployees(){
 		return adminUserService.allData();
-	
-	
 	}
 	}
 

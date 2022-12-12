@@ -27,7 +27,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                          "/employeees",
                          "/authenticate",
                          "/addUser",
-                         "/area",
+                         "/aa",
                          "/upload",
                          "/employees/{cityId}/allarea",
                          "/city/{cityId}/foundation",
