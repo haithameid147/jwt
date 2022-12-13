@@ -38,6 +38,9 @@ public class FirstTimeRunner implements CommandLineRunner {
 		userService.addUser(new AppUser("admin" , "admin" , true , "admin"));
      	userService.addUser(new AppUser("user11" , "user11" , true , "user"));
 
+     	
+		userService.addUser(new AppUser("admin11" , "admin11" , true , "admin11"));
+     	userService.addUser(new AppUser("user1122" , "user1122" , true , "user22"));
 	}
 
 }
